@@ -1,0 +1,54 @@
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 99%;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 99%;
+  }
+}
+
+.responsive {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+
+.genre {
+  width: 24%;
+}
+
+.genre:hover {
+opacity: 0.5;
+}
+
+body {
+  background-image: url('bg.jpg');
+}
+
+.between{
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  background-color: #F0FFFF;
+}
+
+p#b,p.n{
+  font-family: impact;
+  text-align: center;
+}
+
+p#b{
+  font-size: 50px;
+}
+
+
+.btn{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
